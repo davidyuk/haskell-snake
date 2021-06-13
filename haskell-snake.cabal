@@ -32,6 +32,7 @@ library
       src
   build-depends:
       base >=4.7 && <5
+    , random
   default-language: Haskell2010
 
 executable haskell-snake-exe
@@ -44,6 +45,7 @@ executable haskell-snake-exe
   build-depends:
       base >=4.7 && <5
     , haskell-snake
+    , random
   default-language: Haskell2010
 
 test-suite haskell-snake-test
@@ -57,4 +59,5 @@ test-suite haskell-snake-test
   build-depends:
       base >=4.7 && <5
     , haskell-snake
+    , random
   default-language: Haskell2010
